@@ -21,34 +21,37 @@ chmod +x prep4pwn.sh
 
 Follow the interactive menu to select what you want to install/configure.
 
-🔐 Sudo password will be requested at the start. Needed for installs and system changes.
+## 🔐 Password
+Sudo password will be requested at the start. Needed for installs and system changes.
 
-📂 Ligolo-ng Setup
+
+## 📂 Ligolo-ng Setup
 Ligolo-ng components are downloaded to:
-
-bash
-Copy
-Edit
+```bash
 ~/ligolo-ng
-Includes both agent and proxy for Linux and Windows (v0.7.5). Archives are cleaned up post-install.
+```
+Includes both the pivot "agent" and "proxy" for Linux and Windows (v0.7.5). Archives are cleaned up post-install.
 More info on Ligolo-ng: https://github.com/nicocha30/ligolo-ng
 
-🖼️ Custom Login Background
+
+## 🖼️ Custom Login Background
 The script validates your image path and format. Supported formats:
-
+```bash
 .png, .jpg, .jpeg, .bmp, .webp
-
+```
 The selected image will replace the default Kali login background via symbolic link.
 
-⚙️ Requirements
-Kali Linux (tested on 2024.1+)
+
+## ⚙️ Requirements
+Kali Linux (tested on 2025.1+)
 
 Internet connection
 
-curl, unzip, tar, and other basic GNU tools
+curl, unzip, tar, and other basic GNU tools, so you can use it fresh out of the box
 
-💣 Notes
-Designed for VirtualBox or fresh local installs
+
+## 📝 Notes
+Designed for Kali Linux virtual machine instances
 
 You can run this script multiple times; it will not duplicate actions
 
