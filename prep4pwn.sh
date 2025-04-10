@@ -3,7 +3,6 @@
 # Variables
 USER_HOME="/home/${SUDO_USER:-$(whoami)}"
 NEW_LINE="\n"
-APT_UPD_UPG="sudo apt update && sudo apt full upgrade -y"
 PMK_CLONE="git clone https://github.com/Dewalt-arch/pimpmykali.git $USER_HOME/Downloads/pimpmykali"
 PMK_SCRIPT="$USER_HOME/Downloads/pimpmykali/pimpmykali.sh"
 LIG_DIR="$USER_HOME/ligolo-ng"
