@@ -17,6 +17,7 @@ Whether you're popping shells or pivoting through networks, this script gives yo
 ```bash
 chmod +x prep4pwn.sh
 ./prep4pwn.sh
+```
 
 Follow the interactive menu to select what you want to install/configure.
 
